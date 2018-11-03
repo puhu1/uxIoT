@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+// @import "@material/fab/mdc-fab";
+body{
+    background-color: aquamarine;
+    opacity: 10%;
+}

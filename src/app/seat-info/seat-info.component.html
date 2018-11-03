@@ -1,0 +1,11 @@
+<div style="padding:4%;margin-left:8%">
+  <div (click)="bookOrUpdate(seat)" *ngFor="let seat of seats" [ngClass]="getClass(seat)"  class="card" style="cursor:pointer;display:inline-block; margin:2rem;width: 14rem; height: 10rem">
+      <div class="card-body">
+          {{getStatus(seat)}}<br>
+        Name: {{seat.name}}<br>
+        Employee ID :{{seat.employeeId}}<br>
+        {{getFromTime(seat.from)}} -- {{getToTime(seat.to)}}
+      </div>
+      
+    </div>
+</div>
